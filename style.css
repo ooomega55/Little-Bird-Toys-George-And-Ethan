@@ -1,0 +1,75 @@
+/*Navbar*/
+.bg-nav {
+  background-color: #503b3b;
+  padding: 10px;
+}
+
+.navtext {
+  color: #fed4be;
+}
+
+.navtext:hover {
+  color: #ffa257;
+}
+
+/*Homepage background css*/
+.relative {
+  position: relative !important;
+}
+
+.gray-lightest,
+.hover-gray-lightest:hover {
+  color: #ffa257 !important;
+}
+
+.bg-white,
+.hover-bg-white:hover {
+  background-color: #fed4be !important;
+}
+
+.h-1by2:after {
+  content: "";
+  display: block;
+  padding-bottom: 50%;
+}
+
+.pattern-triangles-sm {
+  background-image: linear-gradient(45deg, currentColor 50%, transparent 50%);
+  background-size: 10px 10px;
+}
+
+.h1text {
+  font-family: fantasy;
+  color: #b34700;
+}
+
+.birdtoybox {
+  background-color: #306958;
+}
+
+/*Cards on homepage*/
+.cardbackground {
+  background-color: #f58d61;
+}
+
+.cardimg {
+  text-align: center;
+  object-position: center;
+}
+
+/*Little Bird Toys Image*/
+.imagetest {
+  object-fit: none;
+  /* Do not scale the image */
+  object-position: center;
+  /* Center the image within the element */
+  width: 100%;
+  max-height: 250px;
+  margin-bottom: 1rem;
+}
+
+/*Text on each toy page*/
+.toyedits {
+  background-color: #306958;
+  font-family: cursive;
+}
