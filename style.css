@@ -1,3 +1,7 @@
+.container-fluid{
+  padding: 0px;
+}
+
 /*Navbar*/
 .bg-nav {
   background-color: #503b3b;
@@ -47,6 +51,22 @@
   background-color: #306958;
 }
 
+.quotebox {
+  background-color: #f58d61;
+  margin: 1px;
+  padding: 1px;
+  color: white;
+  font-weight: bold;
+  font-family: geneva;
+  font-size: 20px;
+  text-align: center;
+}
+
+.brightness:hover{
+  filter:brightness(150%);
+  transition-duration: 2s;
+}
+
 /*Cards on homepage*/
 .cardbackground {
   background-color: #f58d61;
@@ -55,6 +75,10 @@
 .cardimg {
   text-align: center;
   object-position: center;
+}
+
+.card-header{
+  font-size: 40px;
 }
 
 /*Little Bird Toys Image*/
@@ -72,4 +96,18 @@
 .toyedits {
   background-color: #306958;
   font-family: cursive;
+}
+
+.toybutton {
+  background-color: #694e30;
+  color: #ffce7a;
+  font-family: cursive;
+  font-size: 60px;
+  border: 5px #ffce7a solid;
+  padding: 5px 5px;
+}
+
+.toybutton:hover {
+  background-color: #86624c;   
+  transition-duration: 1s;
 }
